@@ -3,6 +3,9 @@
 
 Recursively visits sites on the same host, with a fixed sized Thread Pool backed by a blocking queue to provide back pressure.
 
+- [System Design Diagram](./docs/system-design.excalidraw) - open with [Excalidraw](https://excalidraw.com/)
+
+
 ⚠️ Note Well
 
 - `App.class` contains a hardcoded property `limit` you can change for convenience, by default its set to `100`.
